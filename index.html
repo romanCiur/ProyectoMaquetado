@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/angular.css">
+    <link rel="stylesheet" href="css/dudas.css">
+    <link rel="stylesheet" href="css/tutoriales.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/recomendaciones.css">
+    
+    <title>App.Con - Aprendizaje Continuo</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+    
+    <div ng-app="appHTTP" class="flex">
+        <div class="header">
+            <ul>
+                <li><a href="#/!"> HOME</a></li>
+                <li><a href="#!recomendaciones"> RECOMENDACIONES</a></li>
+                <li><a href="#!tutos">TUTORIALES</a></li>
+                <li><a href="#!dudas">DUDAS</a></li>
+            </ul>
+        </div>
+        <div ng-view></div>
+       <div class="footer">2018</div>    
+    </div>
+
+    <script src="js/angular-config.js"></script>
+    <script src="js/vistas.js"></script>
+
+    
+</body>
+</html>
